@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ItemDetailFragment">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/image_shadow_background"
+        android:fontFamily="@font/rowdies_bold"
+        android:text="Back"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="@+id/clDetailCard"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/clDetailCard"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/shadow_card"
+        android:orientation="vertical"
+        android:paddingHorizontal="50dp"
+        android:paddingTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack">
+
+        <ImageView
+            android:id="@+id/ivItemImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/image_shadow_background"
+            android:src="@drawable/anime_trend"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rowdies_bold"
+            android:text="CRAZY MOB"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivItemImage" />
+
+        <TextView
+            android:id="@+id/tvItemDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/rowdies_bold"
+            android:text="Pick your side by joining the squad of firey demons or the team of courageous teenagers. Impress everyone with your new outfits!\n \n12 fire- and ice-themed skins\n  Great for roleplay\n Published by BLOCKLAB Studios under license from Miracles Studios."
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/llprice"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvItemName" />
+
+
+        <LinearLayout
+            android:id="@+id/llprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvItemDescription">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/item_money" />
+
+            <TextView
+                android:id="@+id/tvItemPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/rowdies_bold"
+                android:text="760"
+                android:textColor="#FFDC18"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

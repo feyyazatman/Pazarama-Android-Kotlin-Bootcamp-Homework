@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Week3Homework</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="header_image">header image</string>
+    <string name="instagram_icon">instagram icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="wp_icon">wp icon</string>
+</resources>

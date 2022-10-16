@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/itemPriceListFragment">
+
+    <fragment
+        android:id="@+id/itemDetailFragment"
+        android:name="com.feyyazatman.week3homework.ui.ItemDetailFragment"
+        android:label="fragment_item_detail"
+        tools:layout="@layout/fragment_item_detail" >
+        <argument
+            android:name="item"
+            app:argType="com.feyyazatman.week3homework.data.ItemModel" />
+        <action
+            android:id="@+id/action_itemDetailFragment_to_itemPriceListFragment"
+            app:destination="@id/itemPriceListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemPriceListFragment"
+        android:name="com.feyyazatman.week3homework.ui.ItemPriceListFragment"
+        android:label="fragment_item_price_list"
+        tools:layout="@layout/fragment_item_price_list" >
+        <action
+            android:id="@+id/action_itemPriceListFragment_to_itemDetailFragment"
+            app:destination="@id/itemDetailFragment" />
+    </fragment>
+</navigation>
