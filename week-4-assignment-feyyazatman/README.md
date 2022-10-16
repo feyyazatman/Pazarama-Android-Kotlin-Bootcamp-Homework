@@ -1,7 +1,7 @@
 
 ## Ödev Detayları
 
-- Uygulama Openweathermap api'si kullanılarak yapıldı. 
+- Uygulama Openweathermap api'si kullanılarak yapı
 - Weather sayfasında günlere göre hava durumu ve sıcaklık değerleri ekrana yazdırılır.
 - Detail sayfasında ise seçilen günün dilimlerine göre tahmini sıcaklık değerleri ekrana yazdırılır.
 
