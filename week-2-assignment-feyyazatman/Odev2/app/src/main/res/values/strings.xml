@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Week2SignUpScreen</string>
+    <string name="welcome_to_bauuss">Welcome to\nBauuss</string>
+    <string name="log_in">Log in</string>
+    <string name="email_adress">Email Adress</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_page_image">Login page image</string>
+    <string name="username">Username</string>
+    <string name="example_example_com"><font size="12">example@example.com</font></string>
+    <string name="_8_characters"><font size="12">8+ characters</font></string>
+    <string name="register">Register</string>
+    <string name="register_page_image">Register page image</string>
+    <string name="back_image_button">back image button</string>
+</resources>
