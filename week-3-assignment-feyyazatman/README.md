@@ -1,6 +1,6 @@
 ### Ödev Detayları
 
-- Uygulamanın anasayfası Minecraft oyununa ait itemleri listeleyen bir fragmen
+- Uygulamanın anasayfası Minecraft oyununa ait itemleri listeleyen bir fragment.
 - Skin, Texture, Map olmak üzere 3 farklı item türü var.
 - Verileri data -> itemModel klasöründe statik olarak verdim.
 - ViewPager ve RecyclerView'i birlikte kullanarak 3 farklı türü aynı sayfa üzerinde listeledim.
